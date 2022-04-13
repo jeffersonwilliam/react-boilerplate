@@ -14,3 +14,5 @@ I didn't encounter any significant challenges.
 ## Extra Credit
 
 ## Screenshots
+
+![Starterpack Page screenshot](/starterpack screenshot.png?raw=true "Starterpack")
