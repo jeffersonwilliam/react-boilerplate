@@ -10,7 +10,7 @@ Deployed URL:
 The instructions were straightforward to follow.
 
 ## What Didn't
-My initial commit didn't imclude the seconds counter on the page although I had it written locally. I had to recommit.
+My initial commit didn't include the seconds counter on the page although I had it written locally. I had to recommit.
 
 ## Extra Credit
 
