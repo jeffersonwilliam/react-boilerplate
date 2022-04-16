@@ -1,10 +1,10 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
+// change require to es6 import style
+import $ from 'jquery';
 import './style.scss';
 
-function App() {
-  return <div className="test">All the REACT are belong to us!</div>;
-}
+let seconds = 0;
 
-const root = createRoot(document.getElementById('main'));
-root.render(<App />);
+setInterval(() => {
+  seconds += 1;
+  $('#main').html(`You've been on this page for ${seconds} seconds.`);
+}, 1000);
