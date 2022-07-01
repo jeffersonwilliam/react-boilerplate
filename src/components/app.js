@@ -6,18 +6,6 @@ import Counter from './counter';
 import Controls from './controls';
 import '../style.scss';
 
-function About(props) {
-  return <div> All there is to know about me </div>;
-}
-function Welcome(props) {
-  return (
-    <div>Welcome
-      <Counter />
-      <Controls />
-    </div>
-  );
-}
-
 function App(props) {
   return (
     <BrowserRouter>
@@ -57,4 +45,16 @@ function Test(props) {
 
 function FallBack(props) {
   return <div>URL Not Found</div>;
+}
+
+function About(props) {
+  return <div> All there is to know about me </div>;
+}
+function Welcome(props) {
+  return (
+    <div>Welcome
+      <Counter />
+      <Controls />
+    </div>
+  );
 }
